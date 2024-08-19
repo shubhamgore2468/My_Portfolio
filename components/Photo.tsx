@@ -7,10 +7,16 @@ const Photo = () => {
     <div className="w-full h-full relative">
       <motion.div>
         <div className="">
-          <img
+          {/* <img
             className="rounded-full w-[498px] h-[510px]"
             src="/assets/self.jpg"
-          ></img>
+          ></img> */}
+          <Image
+            src="/path/to/image.jpg"
+            alt="Description of the image"
+            width={500}
+            height={500}
+          />
         </div>
       </motion.div>
     </div>

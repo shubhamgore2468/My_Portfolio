@@ -25,7 +25,7 @@ export default function Intro() {
             <h1 className="text-[48px] xl:text-[80px] leading-[1.1] font-semibold pt-4">
               {/* h2 className="text-[36px] xl:text-[48px] leading-[1.1] font-semibold" */}
               {/* h3 className="text-[20px] xl:text-[24px] leading-[1.1] font-semibold" */}
-              Hello I'm <br /> <span>Shubham Gore</span>
+              Hello I&apos;m <br /> <span>Shubham Gore</span>
             </h1>
             <h1 className="max-w-[500px] mb-9 text-2xl font-bold pt-2">
               MS CS-AI at University of Southern California, Los Angeles.
