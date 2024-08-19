@@ -13,7 +13,7 @@ const Photo = () => {
           ></img> */}
           <Image
             className="rounded-full"
-            src="/assets/self.jpg"
+            src="/self.jpg"
             alt="Description of the image"
             width={498}
             height={510}
