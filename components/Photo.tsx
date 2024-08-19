@@ -12,10 +12,11 @@ const Photo = () => {
             src="/assets/self.jpg"
           ></img> */}
           <Image
-            src="/path/to/image.jpg"
+            className="rounded-full"
+            src="/assets/self.jpg"
             alt="Description of the image"
-            width={500}
-            height={500}
+            width={498}
+            height={510}
           />
         </div>
       </motion.div>
