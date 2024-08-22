@@ -22,7 +22,7 @@ export default function Header() {
           initial={{ x: -100, y: "-50%", opacity: 0 }}
           animate={{ x: 0, y: "-50%", opacity: 1 }}
         > */}
-        <motion.div className="invisible lg:visible sm:invisible md:invisible">
+        <motion.div className="invisible xl:visible lg:invisible sm:invisible md:invisible">
           <nav className="flex fixed left-[0.15rem] top-1/2 h-12 -translate-y-1/2 py-2 sm:left-[1.7rem] sm:h-[initial] sm:py-0">
             <ul className="flex flex-col w-[22rem] flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium text-gray-500 sm:h-[initial] sm:flex-nowrap sm:gap-5">
               {links.map((link) => (
