@@ -31,7 +31,7 @@ export default function Intro() {
               <button>
                 <a
                   className="group bg-slate-900 text-white px-6 py-3 md:px-7 md:py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-                  href="/ShubhamGoreResume.pdf"
+                  href="/ShubhamGore.pdf"
                   download
                 >
                   Download CV{" "}

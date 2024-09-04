@@ -49,7 +49,7 @@ export const experiencesData = [
     title: "Research Assistant @ CDAC ",
     location: "Pune, India",
     description:
-      "Leveraged Machine Learning to predict traffic matrices on Telecom dataset - Abilene, GANT and compared models LSTM, GRU give better results",
+      "Researched and developed machine learning models (LSTM, GRU) to predict traffic matrices on telecom datasets (Abilene,GÉANT). Evaluated multiple approaches, including complete TM, individual OD flows, and top m-OD flows with key element correction. Discovered predicting overall traffic matrix combined with key element correction balances traffic engineering performance and prediction time",
     icon: React.createElement(CgWorkAlt),
     date: "07/2022 - 06/2023",
   },
@@ -57,7 +57,7 @@ export const experiencesData = [
     title: "Software Engineer Intern @ Avaya", //Avaya needs to be a link
     location: "Pune, India",
     description:
-      "contributed to a Customer Contact Centre cloud-based solution by Avaya. In role, focused on utilizing Typescript and Node.js to enhance system's functionality Responsibilities involved writing comprehensive test cases and testing for potential bugs and vulnerabilities, with a specific emphasis on social media integration",
+      "Collaborated with a team of five on Avaya Social Connections, a cloud-based social media messaging solution integrates contact centers with social business channels Facebook, Instagram, WhatsApp, and Twitter. Devised and contributed to microservices Facebook connector, contact center adaptor, etc. are built using Java, spring boot, Nodejs, typescript. Added to features Datadog metrics, monitoring, logging - feature implementation Hashing PII items, graceful shutdown for microservices, Improved security of product by solving sonar scan and Coverity scan bugs, increasing test coverage from 30% to 80%",
     icon: React.createElement(CgWorkAlt),
     date: "01/2022 - 06/2022",
   },
@@ -76,28 +76,30 @@ export const projectsData = [
   {
     title: "OCR",
     description:
-      "application for Recognition of characters in structured and unstructured form using py tesseract and CNN and openCV for image preprocessing and implementing it on Streamlit.io",
+      "Led a team of 4 to build an application for Recognition of characters in structured and unstructured form using py-tesseract and CNN and OpenCV for image preprocessing and implementing it on Streamlit.io. Developed the Recognition of Structured images of dataset making bounding boxes using CNN and py-tesseract and extracting text in a text file",
     tags: ["Python", "OpenCV", "Tensorflow", "pyTessearact"],
     imageUrl: OCR,
+    projectLink:
+      "https://github.com/Data-Science-Community-SRM/Optical-Character-Recognition",
   },
   {
     title: "LipReading ",
-    description: "",
+    description:
+      "Implemented Lip Net, a model maps variable-length video sequences to text by utilizing spatiotemporal convolutions, a recurrent network, and connectionist temporal classification loss, trained entirely end-to-end",
     tags: ["Python", "Keras", "Tensorflow"],
     imageUrl: LP,
+    projectLink:
+      "https://github.com/Data-Science-Community-SRM/Optical-Character-Recognition",
   },
   {
     title: "Plant Traits Prediction - Kaggle",
-    description: "",
+    description:
+      "Employed ConvNeXT, Swin Transformer, and ViT models, augmented datasets, integrated crowd-sourced data, and optimized preprocessing to boost model generalization, accuracy, and performance",
     tags: ["Python", "Keras", "Tensorflow"],
     imageUrl: PT,
+    projectLink:
+      "https://www.kaggle.com/code/foxtrot22/planttraits-spearmen-corr",
   },
-  // {
-  //   title: "Neural Style Transfer",
-  //   description: "",
-  //   tags: ["Python", "Keras", "Tensorflow"],
-  //   imageUrl: CBIR,
-  // },
   {
     title: "My Portfolio",
     description:
@@ -112,6 +114,7 @@ export const projectsData = [
       "React Email",
     ],
     imageUrl: MP,
+    projectLink: "https://github.com/shubhamgore2468/My_Portfolio",
   },
 ] as const;
 
