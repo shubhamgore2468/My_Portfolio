@@ -7,6 +7,7 @@ import MP from "@/public/portfolio.png";
 import OCR from "@/public/OCR.png";
 import PT from "@/public/planttraits.png";
 import LP from "@/public/LipReading.png";
+import RAG from "@/public/RAG.png";
 
 export const links = [
   {
@@ -87,7 +88,7 @@ export const projectsData = [
       "BeautifulSoup",
       "Streamlit",
     ],
-    imageUrl: OCR,
+    imageUrl: RAG,
     projectLink: "",
   },
   {
