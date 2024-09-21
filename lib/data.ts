@@ -74,6 +74,23 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "LLM-based Knowledge Graph Retrieval-Augmented Generation (RAG) ",
+    description:
+      "•	Built a RAG(Generative AI) tool integrating Neo4j and OpenAI API to convert Ecommerce products customer reviews JSON into graph, enabling structured and unstructured data retrieval using entity extraction, knowledge graphs, and vector-based search. Developed a hybrid search pipeline combining Neo4j graph data with embeddings, providing RAG context-based question answering of products.",
+    tags: [
+      "Python",
+      "Neo4j",
+      "LLM's",
+      "RAG",
+      "LangChain",
+      "Selenium",
+      "BeautifulSoup",
+      "Streamlit",
+    ],
+    imageUrl: OCR,
+    projectLink: "",
+  },
+  {
     title: "OCR",
     description:
       "Led a team of 4 to build an application for Recognition of characters in structured and unstructured form using py-tesseract and CNN and OpenCV for image preprocessing and implementing it on Streamlit.io. Developed the Recognition of Structured images of dataset making bounding boxes using CNN and py-tesseract and extracting text in a text file",
