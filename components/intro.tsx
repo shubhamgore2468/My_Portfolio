@@ -15,7 +15,7 @@ export default function Intro() {
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
-    <section className="h-full">
+    <section ref={ref} id="home" className="h-full scroll-mt-[100rem]">
       <div className="container mx-auto h-full px-4">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           {/* text */}
@@ -24,14 +24,14 @@ export default function Intro() {
               Hello I&apos;m <br /> <span>Shubham Gore</span>
             </h1>
             <h1 className="max-w-[500px] mb-6 md:mb-9 text-xl md:text-2xl font-bold pt-2">
-              MS CS-AI at University of Southern California, Los Angeles.
+              MS CS (AI/ML) @ USC — ML Systems · LLM Infrastructure · Full-Stack AI
             </h1>
             {/* Button and socials */}
             <div className="flex flex-col md:flex-row items-center gap-2">
               <button>
                 <a
                   className="group bg-slate-900 text-white px-6 py-3 md:px-7 md:py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-                  href="https://drive.google.com/file/d/1_pqzkYpfNgQVhHUryUKISWJSbn8Ou_Zj/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1cEsFuV1nfPpzDwVK2WKhJ0IJ9P-VCyib/view?usp=sharing"
                   download
                 >
                   Download CV{" "}

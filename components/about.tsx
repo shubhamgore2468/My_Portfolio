@@ -21,19 +21,19 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I am pursuing Master of Science program in Computer Science at the
-        University of Southern California. I am passionate about data science
-        and machine learning, and I have completed several online courses and
-        certifications on Python, R, SQL, TensorFlow, and PyTorch.
+        I&apos;m a Master&apos;s student in Computer Science (AI/ML) at USC,
+        graduating December 2025. I work at the intersection of ML systems and
+        backend engineering — building custom CUDA/Triton kernels, LLM training
+        and inference pipelines, and full-stack agentic AI applications.
       </p>
 
       <p>
-        As a Software Development intern at Avaya, I worked with JavaScript,
-        TypeScript, PostgreSQL, Node.js, and REST APIs to develop and test web
-        applications and services. I have contributed to multiple projects, such
-        as creating a dashboard for monitoring the performance of cloud-based
-        solutions, and integrating a chatbot with a CRM system. I have also
-        learned how to use AWS cloud services to deploy and scale applications.
+        My recent work spans vision-language model training, reinforcement
+        learning for retrieval-augmented QA, and production-grade AI agents
+        deployed on GCP. Previously, I built distributed event-streaming systems
+        at Avaya processing 1M+ messages/day and conducted ML research on
+        traffic prediction at CDAC. I&apos;m passionate about making AI systems
+        that are fast, reliable, and actually useful.
       </p>
     </motion.section>
   );
